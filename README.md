@@ -2,7 +2,7 @@
 
 My personal portfolio website. It shows my projects, resume and a small learning log. I built it with plain HTML, CSS and JavaScript, so there's no framework, build step or backend.
 
-**Live site:** https://tahlilalraiyan.me
+**Live site:** https://tahlilalraiyan.github.io/portfolio/
 
 ## What's inside
 
