@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning log | Mohammad Tahlil Al-Raiyan</title>
+  <meta name="description" content="Short notes on what I build and learn: projects in C#, Java and Python by Mohammad Tahlil Al-Raiyan.">
+  <meta name="theme-color" content="#0e1120">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="mini.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html#home" aria-label="Raiyan, back to home">
+        <span class="logo-wrap"><img class="logo" src="logo.png" alt="" width="44" height="44"></span>
+        <span class="bname" aria-hidden="true"><span style="--i:0">R</span><span style="--i:1">a</span><span style="--i:2">i</span><span style="--i:3">y</span><span style="--i:4">a</span><span style="--i:5">n</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html#home">Home</a></li><li><a href="index.html#projects">Projects</a></li><li><a href="blog.html" aria-current="page" class="active">Learning log</a></li><li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="page hero">
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="wrap">
+      <h1 data-split>Learning log</h1>
+      <p class="intro">Short notes on what I build and what I learn along the way.</p>
+      <div class="posts">
+        <!-- To add a post, copy one <article class="card2 post"> block below and put it at the TOP (newest first). -->
+        <article class="card2 post">
+          <p class="kicker">Project note</p>
+          <h2>Smart Car Rental: building the customer side of a rental system</h2>
+          <p>This C# Windows Forms module covers everything a customer does: register and log in, browse and filter cars with images, book and cancel a rental, pay, and look back at booking history and profile.</p>
+          <p>Building one role end to end taught me to think in full user journeys instead of single screens, and to keep the forms and the SQL Server database working together as one system.</p>
+          <ul class="chips"><li>C#</li><li>Windows Forms</li><li>SQL Server</li></ul>
+          <a class="src" href="https://github.com/TahlilAlRaiyan/Smart-Car-Rental-Management-System-Customer-Role" target="_blank" rel="noopener">View the code on GitHub<span class="sr"> (GitHub, opens in a new tab)</span></a>
+        </article>
+        <article class="card2 post">
+          <p class="kicker">Project note</p>
+          <h2>Tkinter Clock App: five tools in one window</h2>
+          <p>Instead of opening a separate window for each tool, this app puts a digital clock, stopwatch, alarm, timer and searchable world clock in one window and switches between them from a sidebar.</p>
+          <p>It was a good exercise in organizing a desktop interface so that a small Python project still feels like a real application.</p>
+          <ul class="chips"><li>Python</li><li>Tkinter</li></ul>
+          <a class="src" href="https://github.com/TahlilAlRaiyan/tkinter-clock-app-python" target="_blank" rel="noopener">View the code on GitHub<span class="sr"> (GitHub, opens in a new tab)</span></a>
+        </article>
+        <article class="card2 post">
+          <p class="kicker">Project note</p>
+          <h2>QR Code Generator: a small command-line tool</h2>
+          <p>This lightweight app takes a URL and turns it into a QR code saved as a PNG image, using the qrcode and Pillow libraries.</p>
+          <p>Small tools like this are a quick way to learn how to use third-party Python libraries and produce a useful output file.</p>
+          <ul class="chips"><li>Python</li><li>qrcode</li><li>Pillow</li></ul>
+          <a class="src" href="https://github.com/TahlilAlRaiyan/qr-code-generator-python" target="_blank" rel="noopener">View the code on GitHub<span class="sr"> (GitHub, opens in a new tab)</span></a>
+        </article>
+      </div>
+      <p class="more"><a href="index.html#projects">&larr; Back to all projects</a></p>
+    </div>
+  </main>
+
+  <footer class="footer"><p>&copy; <span id="year">2026</span> Mohammad Tahlil Al-Raiyan</p></footer>
+</body>
+</html>
