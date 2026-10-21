@@ -73,7 +73,7 @@ Then open http://localhost:8000.
 
 ## Contact
 
-- Email: mohammad.tahlil.al.raiyan@gmail.com
+- Email: raiyans525@gmail.com
 - GitHub: [@TahlilAlRaiyan](https://github.com/TahlilAlRaiyan)
 
 &copy; 2026 Mohammad Tahlil Al-Raiyan
